@@ -88,6 +88,9 @@ vim.keymap.set("n", "<C-a>", "gg<S-v>G")
 vim.keymap.set("n", "ss", ":split<Return>", opts)
 vim.keymap.set("n", "sv", ":vsplit<Return>", opts)
 
+-- Disable case sensivity
+vim.opt.ignorecase = true
+
 -- Move window
 keymap.set("n", "sh", "<C-w>h")
 keymap.set("n", "sk", "<C-w>k")
