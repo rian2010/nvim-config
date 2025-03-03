@@ -97,7 +97,12 @@ keymap.set("n", "sk", "<C-w>k")
 keymap.set("n", "sj", "<C-w>j")
 keymap.set("n", "sl", "<C-w>l")
 
--- Changing the default terminal into pwsh
+-- Resize window
+keymap.set("n", "<C-w><left>", "<C-w><")
+keymap.set("n", "<C-w><right>", "<C-w>>")
+keymap.set("n", "<C-w><up>", "<C-w>+")
+keymap.set("n", "<C-w><down>", "<C-w>-")
+
 
 -- Diagnostic Keymaps
 --vim.keymap.set("n", "<leader>q", vim.diagnotstic.setloclist, { desc = "Open diagnostic [Q]uickfix list" })

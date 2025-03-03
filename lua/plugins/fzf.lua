@@ -21,7 +21,7 @@ return {
           bat = {
             cmd = "bat",
             args = "--style=plain --color=always --style=numbers,changes",
-            theme = "gruvbox-dark",
+            theme = "ansi",
           },
         },
         files = {
